@@ -1,0 +1,25 @@
+{
+    "name": "awesome-readme-generator",
+    "version": "1.0.0",
+    "description": "Generate Awesome List README from JSON data",
+    "main": "index.js",
+    "bin": {
+        "awesome-readme-generator": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "awesome-list",
+        "generator",
+        "json",
+        "mustache"
+    ],
+    "author": "Anzul Aqeel",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^9.4.1",
+        "mustache": "^4.2.0"
+    }
+}
